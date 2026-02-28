@@ -89,6 +89,16 @@ nav ul {
     text-align: center;
     margin-top: 90px;
 }
+.text-center {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text-center-width {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.5;
+}
 /* main style */
 main {
     max-width: 950px;
@@ -110,4 +120,21 @@ main {
     border: 1px solid black;
     padding: 0px 1px 0px 1px;
     background-color: #ffffff;
+}
+/* skills-section-style */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skills {
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+.skill-description {
+    opacity: 0.5;
 }
