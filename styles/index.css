@@ -169,3 +169,43 @@ hr {
     margin-top: 45px;
     margin-bottom: 85px;
 }
+/* footer-style */
+.secondary-bg {
+    background-color: #fff8f3;
+}
+footer {
+    padding: 100px 190px 160px 190px;
+    display: flex;
+    gap: 90px;
+}
+.footer-column {
+    width: 50%;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 38px;
+    background-color: white;
+    display: block;
+    width: 70%;
+    padding: 5px 18px 5px 14px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+.submit {
+    font-size: 15px;
+    padding: 10px 22px 10px 22px;
+    border-radius: 5px;
+}
+.paragraph {
+    font-size: 15px;
+    opacity: 0.6;
+}
+.icon {
+    margin-right: 17px;
+}
+.section-title-margin {
+    margin-bottom: 20px;
+}
