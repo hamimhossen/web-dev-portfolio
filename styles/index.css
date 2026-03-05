@@ -43,6 +43,12 @@ nav ul {
     padding: 18px 35px;
     border-radius: 5px;
 }
+.btn-contact {
+    border: 1px solid #fd6e0a;
+    color: #fd6e0a;
+    background-color: white;
+    margin-left: 18px;
+}
 /* banner-style */
 .banner {
     display: flex;
