@@ -200,6 +200,9 @@ footer textarea {
     border: none;
     margin-bottom: 20px;
 }
+.message {
+    height: 100px;
+}
 .submit {
     font-size: 15px;
     padding: 10px 22px 10px 22px;
