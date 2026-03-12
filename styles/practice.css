@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.header {
+    /* background-color: tomato; */
+    width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/Banner\ Image.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.title {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.sub-title {
+    color: #ffffff;
+    font-size: 72px;
+    width: 632px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 16px;
+}
+main {
+    width: 1280px;
+}
+.discount-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 70px;
+}
+.discount-title {
+    font-family: "work sans", sans-serif;
+    color: #ff0000;
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+.paragraph {
+    color: #ff0000;
+    font-size: 11px;
+    font-family: "work sans", sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.discount-title2 {
+    font-family: "work sans", sans-serif;
+    color: #070211;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8px;
+}
