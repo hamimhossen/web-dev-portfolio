@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 .header {
     /* background-color: tomato; */
-    width: 1280px;
+    width: 1240px;
     height: 600px;
     margin: 0 auto;
 
@@ -32,7 +32,7 @@
     margin-top: 16px;
 }
 main {
-    width: 1280px;
+    width: 1240px;
     margin: 0px auto;
 }
 .discount-container {
@@ -71,7 +71,7 @@ main {
     background-size: cover;
     background-position: center;
     margin: 0 auto;
-    width: 1280px;
+    width: 1240px;
     height: 600;
     border-radius: 16px;
 }
@@ -100,4 +100,51 @@ main {
     margin-left: 20px;
     font-family: "work sans", sans-serif;
     font-weight: 500;
+}
+.card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card {
+    height: 482px;
+    background-color: #ff6666;
+    background: linear-gradient(to right, #ff9999, #ffffff);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 70px;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40%;
+}
+.card-title {
+    color: #ff0000;
+    font-family: "work sans", sans-serif;
+    font-weight: 600;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.card-sub-title {
+    color: #070211;
+    font-family: "work sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-top: 27px;
 }
