@@ -148,3 +148,59 @@ main {
     border-radius: 8px;
     margin-top: 27px;
 }
+.celebrate {
+    height: 463px;
+    margin-bottom: 70px;
+}
+.celebrate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.celebrate-description {
+    width: 320px;
+    font-family: "work sans", sans-serif;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.year-card-description {
+    width: 276px;
+    font-family: "work sans", sans-serif;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+.celebrate-card-title {
+    color: #ff0000;
+    font-size: 15px;
+    font-family: "work sans", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.celebrate-card-sub-title {
+    color: #070211;
+    font-family: "work sans", sans-serif;
+
+    font-weight: 600;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+.year-card-title {
+    color: #ff0000;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "work sans", sans-serif;
+    margin-bottom: 2px;
+}
+.image-card {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 10px solid red;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 118px;
+}
