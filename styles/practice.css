@@ -204,3 +204,45 @@ main {
     margin-left: 90px;
     margin-right: 118px;
 }
+/* holidays style */
+.holiday {
+    height: 875px;
+    background-image: url("../images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 10px 0 10px 10px;
+    margin-bottom: 70px;
+}
+.holiday-container {
+    text-align: center;
+}
+.holiday-description {
+    width: 610px;
+    height: 96px;
+    font-size: 14px;
+    font-family: "work sans", sans-serif;
+    opacity: 0.7;
+    letter-spacing: 0%;
+    margin: 20px auto;
+}
+.image-box {
+    display: flex;
+}
+.first-image {
+    margin-right: 55px;
+}
+.holiday-title {
+    font-family: "work sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.holiday-sub-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.holiday-style {
+    color: #ff0000;
+}
