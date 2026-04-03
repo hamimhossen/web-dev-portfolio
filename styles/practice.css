@@ -246,3 +246,47 @@ main {
 .holiday-style {
     color: #ff0000;
 }
+/* gift-style */
+.gift {
+    margin-bottom: 70px;
+}
+.gift-description {
+    width: 600px;
+}
+.gift-container1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.gift-container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.gift-box img {
+    width: 400px;
+    height: auto;
+}
+.gift-title {
+    font-family: "work sans", sans-serif;
+    font-size: 15px;
+    color: #ff0000;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.gift-sub-title {
+    font-size: 35px;
+    color: #070211;
+    margin-top: 13px;
+    margin-bottom: 17px;
+    font-weight: bold;
+}
+.gift-description {
+    font-family: "work sans", sans-serif;
+    font-size: 13px;
+    color: #070211;
+    opacity: 0.7;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
