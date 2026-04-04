@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* header-style */
+header {
+    background-image: url("../images/Hero-bg.png");
+    background-size: cover;
+    height: 445px;
+    width: 1110px;
+    margin: auto;
+}
+#head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+}
+.logo-style {
+    font-family: "work sans", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #4e47ff;
+    margin-top: 25px;
+}
+.button-style {
+    color: #ffffff;
+    background-color: #4e47ff;
+    border: none;
+    padding: 7px 15px 7px 15px;
+    font-size: 11px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.head2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head2-title {
+    font-family: "work sans", sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    color: #252432;
+    width: 500px;
+    text-align: center;
+    margin-top: 110px;
+}
+.head2-button-style {
+    color: #ffffff;
+    background-color: #4e47ff;
+    border: none;
+    padding: 7px 17px 7px 17px;
+    font-size: 11px;
+    border-radius: 5px;
+}
