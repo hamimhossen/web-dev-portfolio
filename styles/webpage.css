@@ -92,3 +92,42 @@ main {
     height: auto;
     border-radius: 30px;
 }
+/* single-card-style */
+#single-card {
+    background-color: powderblue;
+    border-radius: 14px;
+    height: 260px;
+}
+.single-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    margin: auto;
+}
+.single-card-title {
+    font-family: "work sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 2px;
+    padding-top: 50px;
+}
+.single-card-box {
+    font-family: "work sans", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #4e47ff;
+    margin-bottom: 0px;
+}
+.container-title {
+    margin-top: 0px;
+    text-align: center;
+    font-family: "work sans", sans-serif;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.container-box {
+    margin-top: 0px;
+    padding-bottom: 55px;
+}
