@@ -97,6 +97,7 @@ main {
     background-color: powderblue;
     border-radius: 14px;
     height: 260px;
+    margin-bottom: 70px;
 }
 .single-card-container {
     display: flex;
@@ -130,4 +131,59 @@ main {
 .container-box {
     margin-top: 0px;
     padding-bottom: 55px;
+}
+/* card-two-style */
+#card-two {
+    margin-bottom: 70px;
+}
+.card-two-container {
+    background-color: #f2eded;
+    width: 275px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 14px 0px 9px 13px;
+}
+.card-two-title {
+    font-family: "work sans", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card-two-subtitle {
+    font-family: "work sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.card-two-description {
+    font-family: "work sans", sans-serif;
+    font-size: 12px;
+    width: 230px;
+    margin-top: 5px;
+}
+.image-icon-set img {
+    border-radius: 100px;
+    margin-top: 9px;
+}
+.image-icon {
+    display: flex;
+    gap: 10px;
+}
+.owner-name {
+    font-family: "work sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-bottom: 0px;
+}
+.time {
+    font-family: "work sans", sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+    margin-top: 4px;
+}
+.new-card-show {
+    display: flex;
+    justify-content: space-between;
 }
