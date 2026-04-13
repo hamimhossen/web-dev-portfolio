@@ -134,7 +134,7 @@ main {
 }
 /* card-two-style */
 #card-two {
-    margin-bottom: 70px;
+    margin-bottom: 90px;
 }
 .card-two-container {
     background-color: #f2eded;
@@ -186,4 +186,48 @@ main {
 .new-card-show {
     display: flex;
     justify-content: space-between;
+}
+/* card-three-style */
+#card-three {
+    margin-bottom: 90px;
+}
+.card-three-title {
+    text-align: center;
+    font-family: "work sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.card-three-description {
+    text-align: center;
+    font-family: "work sans", sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    margin-top: 0px;
+    opacity: 0.6;
+}
+.card-three-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.three-btn {
+    color: #ffffff;
+    background-color: #4e47ff;
+    border: none;
+    padding: 9px 20px 9px 20px;
+    font-size: 9px;
+    border-radius: 6px;
+}
+.card-three-image img {
+    width: 600px;
+    height: 250px;
+    border-radius: 28px;
+}
+.card-three-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
