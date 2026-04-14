@@ -289,3 +289,37 @@ textarea {
     border: none;
     border-radius: 5px;
 }
+/* footer-style */
+footer {
+    background-color: #f2eded;
+    width: 1110px;
+    height: 290px;
+    margin: auto;
+    padding-top: 23px;
+}
+.footer-title {
+    font-family: "work sans", sans-serif;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 700;
+    color: #4e47ff;
+    margin-bottom: 10px;
+}
+.footer-description {
+    font-family: "work sans", sans-serif;
+    font-size: 13px;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    opacity: 0.5;
+    line-height: 17px;
+    margin-bottom: 9px;
+}
+.footer-list {
+    display: flex;
+    justify-content: center;
+    font-family: "work-sans", sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+    gap: 48px;
+}
