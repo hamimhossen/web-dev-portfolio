@@ -134,7 +134,7 @@ main {
 }
 /* card-two-style */
 #card-two {
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 .card-two-container {
     background-color: #f2eded;
@@ -189,7 +189,11 @@ main {
 }
 /* card-three-style */
 #card-three {
-    margin-bottom: 90px;
+    background-color: #f2eded;
+    margin-bottom: 95px;
+    height: 450px;
+    padding-top: 20px;
+    border-radius: 8px;
 }
 .card-three-title {
     text-align: center;
@@ -230,4 +234,58 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* form-card-style */
+#form-card {
+    margin-bottom: 70px;
+}
+.form-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.form-card-titled {
+    display: flex;
+    align-items: center;
+}
+.form-card-title {
+    font-family: "work sans", sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    width: 400px;
+}
+label {
+    font-family: "work sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+::placeholder {
+    font-size: 11px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    height: 40px;
+    width: 260px;
+    background-color: #f2eded;
+    border: none;
+    border-radius: 5px;
+}
+.card-form-message {
+    height: 75px;
+    padding-top: 15px;
+    background-color: #f2eded;
+    border: none;
+}
+.form-button {
+    margin-top: 9px;
+}
+.form-card-btn {
+    width: 264px;
+    height: 35px;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #4e47ff;
+    border: none;
+    border-radius: 5px;
 }
